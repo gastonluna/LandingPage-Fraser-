@@ -483,8 +483,10 @@ footer span{
     
     background-clip: text;
     background: linear-gradient(to right, #30cfd0, #c43ad6);
-    background-clip:text;
     color: transparent;
+    background: -webkit-linear-gradient(to right, #30cfd0, #c43ad6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 16px;
     font-weight: 800;
 }
