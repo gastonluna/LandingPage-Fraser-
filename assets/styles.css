@@ -165,6 +165,10 @@ main{
     max-width: 300px;
 }
 
+.product-principal img{
+    border-radius: 10px;
+}
+
 #info{
     padding: 70px 0;
     max-width: 1200px;
@@ -364,7 +368,7 @@ main{
 
 .product img{
     width: 260px;
-    border-radius: 16px;
+    border-radius: 10px;
 }
 
 
@@ -459,8 +463,9 @@ footer span{
 }
 
 .cart-item img{
-    width: 65px;
+    width: 75px;
     height: 65px;
+    border-radius: 2px;
 }
 .item-info{
     display: flex;
