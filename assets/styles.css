@@ -128,6 +128,9 @@ main{
     background: linear-gradient(to top, #3b2dfd, #c32238);
     background-clip: text;
     color: transparent;
+    background: -webkit-linear-gradient(to top, #3b2dfd, #c32238);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .item-info p{
