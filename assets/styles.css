@@ -150,6 +150,18 @@ main{
     text-align: center;
 }
 
+.product-principal{
+    background: var(--secondary);
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+
 #info{
     padding: 70px 0;
     max-width: 1200px;
